@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaInstagram, FaFacebook, FaWhatsapp, FaSnapchat, FaEnvelope, FaBars, FaXmark } from 'react-icons/fa6';
+import { FaGithub, FaLinkedin, FaEnvelope, FaBars, FaXmark } from 'react-icons/fa6';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 40 },
@@ -320,20 +320,8 @@ function App() {
             <a href="https://github.com/sathvikasanem" target="_blank" rel="noreferrer" className="social-icon" aria-label="GitHub">
               <FaGithub />
             </a>
-            <a href="https://linkedin.com/in/sathvika-sanem" target="_blank" rel="noreferrer" className="social-icon" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/sathvikasanem/" target="_blank" rel="noreferrer" className="social-icon" aria-label="LinkedIn">
               <FaLinkedin />
-            </a>
-            <a href="https://www.instagram.com/sathvika_sanem?stkn=ZmRuMWRnYXk4cmFx" target="_blank" rel="noreferrer" className="social-icon" aria-label="Instagram">
-              <FaInstagram />
-            </a>
-            <a href="https://www.facebook.com/share/1C4ASyk8Ax/" target="_blank" rel="noreferrer" className="social-icon" aria-label="Facebook">
-              <FaFacebook />
-            </a>
-            <a href="https://wa.me/919542371609" target="_blank" rel="noreferrer" className="social-icon" aria-label="WhatsApp">
-              <FaWhatsapp />
-            </a>
-            <a href="https://www.snapchat.com/add/sanem_sathvika?share_id=olZ4zM1XxVQ&locale=en-GB" target="_blank" rel="noreferrer" className="social-icon" aria-label="Snapchat">
-              <FaSnapchat />
             </a>
             <a href="mailto:sathvikasanem3@gmail.com" className="social-icon" aria-label="Email">
               <FaEnvelope />
